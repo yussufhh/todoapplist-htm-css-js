@@ -1,0 +1,18 @@
+.todo-App{
+    height: 100vh;
+
+}
+.categoryTag{
+    cursor: pointer;
+
+}
+.categoryTag::after{
+    content: "x";
+    font-size: 20px;
+    color: blue;
+    right: 0;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+
+}
